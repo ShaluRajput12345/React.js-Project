@@ -1,0 +1,46 @@
+.Container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.leftcontainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_name{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: relative;
+}
+.form_name input{
+    height: 40px;
+    padding: 0 8px;
+}
+
+.form_name label{
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    background-color: white;
+}
+
+.rightcontainer img{
+    height: 450px;
+}

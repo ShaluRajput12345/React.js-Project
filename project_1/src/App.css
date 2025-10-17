@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(235, 224, 224);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 24px;
+  margin-right: 20px;
+}
+
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.hero{
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1280px;
+  height: calc(100vh - 72px);
+}
+
+.hero_content h1{
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+.hero_content p{
+  font-weight: 600;
+  color: gray;
+}
+
+.hero-btn{
+  display: flex;
+  gap: 20px;
+}
+
+.secondary-btn{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.shopping p{
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.brand-icons{
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
